@@ -1,0 +1,18 @@
+{
+  "name": "mocha-async-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test-runner",
+    "coverage": "istanbul cover test-runner.js"
+  },
+  "author": "Daniel Perez",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  }
+}
